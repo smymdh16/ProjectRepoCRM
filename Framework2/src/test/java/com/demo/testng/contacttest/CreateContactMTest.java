@@ -75,7 +75,7 @@ public class CreateContactMTest extends BaseClass {
 
 	}
 
-	@Test(groups="smokeTest")
+	@Test(groups="regressionTest")
 	public void demoTest()
 	{
 		Reporter.log("hello how are you");
