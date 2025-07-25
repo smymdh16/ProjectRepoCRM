@@ -79,9 +79,9 @@ public class CreateContactMTest extends BaseClass {
 	public void demoTest()
 	{
 		Reporter.log("hello how are you");
-		String b=System.getProperty("browser");
+	
 		String user=System.getProperty("username");
-		System.out.print(b);
+		
 		System.out.println(user);
 	}
 	
