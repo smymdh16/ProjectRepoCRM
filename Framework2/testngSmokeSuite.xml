@@ -10,7 +10,7 @@
     <classes>
       <class name="com.demo.testng.orgtest.CreateOrgMTest"/>
       <class name="com.demo.testng.contacttest.CreateContactMTest"/>
-      <class name="com.demo.testng.emailtest.CreateEmail2Test"/>
+    
       <class name="com.demo.testng.emailtest.CreateEmailMTest"/>
       <class name="com.demo.testng.producttest.CreateProduct2Test"/>
       <class name="com.demo.testng.producttest.CreateProductTest"/>
