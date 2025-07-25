@@ -45,7 +45,7 @@ public class BaseClass {
 	public void configureBeforeClass(/*String browser*/) throws IOException
 	{
 		System.out.println("=====Launch the Browser==========");
-		String BROWSER =System.getProperty(f.toReadDataFromPropertyFile("browser"));
+		String BROWSER =f.toReadDataFromPropertyFile("browser");
 		String URL =f.toReadDataFromPropertyFile("url");
 		System.out.println(BROWSER);
 		if (BROWSER.equals("chrome")){
