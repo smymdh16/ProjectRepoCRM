@@ -97,7 +97,6 @@ public class CreateEmail2Test extends BaseClass {
 		em.getDelete().click();
 		w.switchToAlertToGettext(driver);
 		Reporter.log("Email deleted successfully",true);
-
 		w.switchToAlertToAccept(driver);
 
 	}
