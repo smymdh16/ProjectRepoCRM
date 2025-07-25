@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Organization created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Email created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Email deleted successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-07-23T16:12:56Z" name="Default suite" finished-at="2025-07-23T16:13:40Z" duration-ms="44053">
+    <groups>
+      <group name="smokeTest">
+        <method signature="CreateEmail2Test.searchEmailAndDeleteTest()[pri:0, instance:com.demo.testng.emailtest.CreateEmail2Test@465232e9]" name="searchEmailAndDeleteTest" class="com.demo.testng.emailtest.CreateEmail2Test"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2025-07-23T16:12:56Z" name="Default test" finished-at="2025-07-23T16:13:40Z" duration-ms="44053">
+      <class name="com.demo.testng.emailtest.CreateEmail2Test">
+        <test-method is-config="true" signature="configBeforeSuite()[pri:0, instance:com.demo.testng.emailtest.CreateEmail2Test@465232e9]" started-at="2025-07-23T16:12:56Z" name="configBeforeSuite" finished-at="2025-07-23T16:12:56Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeSuite -->
+        <test-method is-config="true" signature="configureBeforeClass()[pri:0, instance:com.demo.testng.emailtest.CreateEmail2Test@465232e9]" started-at="2025-07-23T16:12:56Z" name="configureBeforeClass" finished-at="2025-07-23T16:13:01Z" duration-ms="4874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBeforeClass -->
+        <test-method is-config="true" signature="configureBeforeMethod()[pri:0, instance:com.demo.testng.emailtest.CreateEmail2Test@465232e9]" started-at="2025-07-23T16:13:01Z" name="configureBeforeMethod" finished-at="2025-07-23T16:13:16Z" duration-ms="15305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBeforeMethod -->
+        <test-method signature="searchEmailAndDeleteTest()[pri:0, instance:com.demo.testng.emailtest.CreateEmail2Test@465232e9]" started-at="2025-07-23T16:13:16Z" name="searchEmailAndDeleteTest" finished-at="2025-07-23T16:13:38Z" duration-ms="22202" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Organization created successfully]]>
+            </line>
+            <line>
+              <![CDATA[Email created successfully]]>
+            </line>
+            <line>
+              <![CDATA[Email deleted successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchEmailAndDeleteTest -->
+        <test-method is-config="true" signature="configureAfterMethod()[pri:0, instance:com.demo.testng.emailtest.CreateEmail2Test@465232e9]" started-at="2025-07-23T16:13:38Z" name="configureAfterMethod" finished-at="2025-07-23T16:13:40Z" duration-ms="1157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAfterMethod -->
+        <test-method is-config="true" signature="configureAfterClass()[pri:0, instance:com.demo.testng.emailtest.CreateEmail2Test@465232e9]" started-at="2025-07-23T16:13:40Z" name="configureAfterClass" finished-at="2025-07-23T16:13:40Z" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAfterClass -->
+        <test-method is-config="true" signature="configureAfterSUite()[pri:0, instance:com.demo.testng.emailtest.CreateEmail2Test@465232e9]" started-at="2025-07-23T16:13:40Z" name="configureAfterSUite" finished-at="2025-07-23T16:13:40Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAfterSUite -->
+      </class> <!-- com.demo.testng.emailtest.CreateEmail2Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
