@@ -48,7 +48,7 @@ public class BaseClass {
 		String BROWSER =System.getProperty("browser",f.toReadDataFromPropertyFile("browser"));
 		String URL =f.toReadDataFromPropertyFile("url");
 		System.out.println(BROWSER);
-		if (BROWSER.equals("chrome")) {
+		if (BROWSER.equals("chrome")){
 			
 			driver = new ChromeDriver();	
 		}

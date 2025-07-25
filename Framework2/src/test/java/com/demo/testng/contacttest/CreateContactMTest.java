@@ -51,6 +51,7 @@ public class CreateContactMTest extends BaseClass {
 		boolean status2 = actualH.contains(lastname);
 		Assert.assertEquals(status2, true);
 		Reporter.log("Contact created successfully");
+		
 
 		/*
 		 * if (actualH.contains(lastname)) { System.out.println(lastname +
@@ -70,9 +71,17 @@ public class CreateContactMTest extends BaseClass {
 		 * 
 		 * } else { System.out.println("Contact is not verfied" + " FAIL"); }
 		 */
+		
 
 	}
 
+	@Test(groups="smokeTest")
+	public void demoTest()
+	{
+		Reporter.log("hello how are you");
+		
+	}
+	
 	@Test(groups = "regressionTest")
 	public void createContactWithOrgTest() throws EncryptedDocumentException, IOException {
 		// To read data from excel
