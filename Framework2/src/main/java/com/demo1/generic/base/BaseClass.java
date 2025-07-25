@@ -45,7 +45,7 @@ public class BaseClass {
 	public void configureBeforeClass(/*String browser*/) throws IOException
 	{
 		System.out.println("=====Launch the Browser==========");
-		String BROWSER =System.getProperty("browser",f.toReadDataFromPropertyFile("browser"));
+		String BROWSER =System.getProperty(f.toReadDataFromPropertyFile("browser"));
 		String URL =f.toReadDataFromPropertyFile("url");
 		System.out.println(BROWSER);
 		if (BROWSER.equals("chrome")){
@@ -53,12 +53,14 @@ public class BaseClass {
 			driver = new ChromeDriver();	
 		}
 		else if (BROWSER.equals("firefox")) {
+			
 			driver=new FirefoxDriver();
 			
 		}
 		else 
 		{
 			driver=new EdgeDriver();
+			
 		}
 		Sdriver=driver;
 		driver.get(URL);
